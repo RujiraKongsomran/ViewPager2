@@ -21,10 +21,10 @@ public class MyViewPagerAdapter extends RecyclerView.Adapter<MyViewPagerAdapter.
     // We will declare and 2x4 matrix contain color and icon
     int[][] color_icon_matrix = new int[][]{
             // Color, Icon
-            {android.R.color.holo_red_light, R.drawable.ic_baseline_account_circle_24},
-            {android.R.color.holo_blue_dark, R.drawable.ic_baseline_attach_money_24},
-            {android.R.color.darker_gray, R.drawable.ic_baseline_directions_car_24},
-            {android.R.color.holo_green_dark, R.drawable.ic_baseline_location_on_24},
+            {R.color.color_one, R.drawable.ic_baseline_account_circle_24},
+            {R.color.color_two, R.drawable.ic_baseline_attach_money_24},
+            {R.color.color_three, R.drawable.ic_baseline_directions_car_24},
+            {R.color.color_four, R.drawable.ic_baseline_location_on_24},
             // Okay, you can see, column 0 is color, column 1 is icon
 
     };
